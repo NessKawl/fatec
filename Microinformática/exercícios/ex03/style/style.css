@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: wheat;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(0, 36, 0);
+}
+
+.menu__logo {
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.menu__links {
+    display: flex;
+    margin-right: 20px;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: brown;
+}
+
+.cabecalho {
+    background-color: rgb(0, 54, 0);
+    padding: 5%;
+}
+
+.cabecalho__titulo {
+    font-size: 3.5rem;
+    color: white;
+    margin-left: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.section__container {
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.section__container__2 {
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+.subtitulo {
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.imagem__container {
+    border-radius: 50%;
+}
+
+.section__imagens__subtitulo {
+    font-size: 2rem;
+}
+
+.section__imagens {
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+}
+
+.section__imagens__figure__img {
+    padding: 40px;
+}
+
+footer {
+    background-color: rgb(0, 54, 0);
+    padding: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    color: white;
+    padding: 10px;
+}
+
+.section__imagens__artigo {
+    display: flex;
+    justify-content: center;
+}
+
+.section__galeria {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__galeria img {
+    width: 30%;
+}
+
+.section__galeria__9 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.section__galeria__9  img {
+    width: 10%;
+}
+
+.img-100 {
+    width: 100% !important;
+}
+
+.subtitulo__galeria {
+    font-size: 2rem;
+}
