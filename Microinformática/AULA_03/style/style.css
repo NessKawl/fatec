@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.cabecalho {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+.cabecalho_titulo{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 2%;
+}
+
+.nav {
+    text-align: center;
+    padding: 0.5%;
+    background-color: rgba(0, 128, 0, 0.3);
+}
+
+.nav a {
+    padding: 0 1%;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+}
+
+/* GALERIA */
+
+/* Display: flex --> trabalha com o elemento pai para configurar o elemento pai */
+
+h1 {
+    /*border: 1px solid purple;*/
+    font-size: 4rem;
+    color: rgb(248, 232, 83);
+}
+
+#ex1 {
+    background-color: rgba(0, 255, 115, 0.4);
+
+    display: flex;
+    align-items: center; /* ALINHA NA HORIZONTAL */
+    justify-content: center; /* ALINHA NA VERTICAL */
+    /*border: 1px solid red;*/
+    height: 100vh;
+}
+
+/* CONTATO */
+
+
+#ex2 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#HTML {
+    background-color: greenyellow;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+#CSS {
+    background-color: blueviolet;
+    padding: 1%;
+    border-radius: 20px;
+}

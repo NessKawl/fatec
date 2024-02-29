@@ -1,0 +1,14 @@
+====28/02/2024====
+
+// VARIÁVEIS //
+
+- let CRIA VARIÁVEL 
+- TypeScript -- compilado vira JS
+
+int -- 10 5 1 -3
+float -- 1.33 10.54 -3.71
+
+parseFloat() -- converte o conteúdo da variável para float
+parseInt() -- converte o conteúdo da variável para int
+
+`` -- TEMPLATE STRING

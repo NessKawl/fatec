@@ -1,0 +1,19 @@
+====28/02/2024====
+
+==================
+Vinícius Palmeiras 
+POO & LP -- 15:35
+==================
+
+// Comandos de Saída //
+
+- innerText -- NÃO RECONHECE TAGS HTML
+- textContent -- NÃO RECONHECE TAGS HTML
+- innerHTML -- RECONHECE AS TAGS HTML
+
+
+// VARIÁVEIS //
+
+- let CRIA VARIÁVEL 
+- TypeScript -- compilado vira JS
+
