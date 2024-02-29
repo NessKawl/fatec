@@ -4,17 +4,26 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+:root {
+    --cor1: #9ab0d4bd;
+    --cor2: #AA5656;
+    --cor3: #ffffff;
+    --cor4: #000000;
+    --cor5: #F1DBBF;
+    --cor6: #808080;
+}
+
 body {
-    background-color: #F1DBBF;
+    background-color: var(--cor5);
 }
 
 .cabecalho {
-    background-color: #698269;
+    background-color: var(--cor1);
     padding: 5%;
 }
 
 h1 {
-    color: #F1DBBF;
+    color: var(--cor5);
     margin-left: 80px;
     font-size: 2.5rem;
 }
@@ -28,7 +37,7 @@ h1 {
 h2 {
     margin-top: 30px;
     font-size: 2rem;
-    border-left: 7px solid gray;
+    border-left: 7px solid var(--cor6);
     padding: 10px;
     margin-bottom: 20px;
     font-style: italic;
@@ -52,7 +61,7 @@ img {
 }
 
 footer {
-    background-color: #AA5656;
+    background-color: var(--cor2);
     padding: 30px;
 }
 
@@ -61,10 +70,10 @@ footer {
 }
 
 li {
-    color: white;
+    color: var(--cor3);
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--cor3);
 }
