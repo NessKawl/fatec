@@ -1,0 +1,11 @@
+===== 05/03/2024 =====
+
+- O que diminui a imagem é o container, a imagem ocupa o tamanho do containe, então se o container tem 80%, a imagem ocupa aquele espaço. PARA A IMAGEM OCUPAR TODO O CONTAINER ELA DEVE SER WIDTH: 100%; (para diminuir o tamanho da imagem basta diminuir o tamanho do container)
+
+- IMGAEM DE FUNDO: 
+    - imagem grande: não se deve mudar WIDTH ou HEIGHT, a imagem deve ser posicionada da melhor forma para se ajustar ao container;
+
+- BACKGROUND IMAGE: ; --COLOCAR IMAGEM COMO BACKGROUND;
+- BACKGROUND REPEAT: ; --A FORMA COMO QUE A IMAGEM SE REPETE (aplicável a imagens pequenas)
+- WIDTH: x e y; --O WIDTH PODE TRABALHAR COM O EIXO X E EIXO Y;
+

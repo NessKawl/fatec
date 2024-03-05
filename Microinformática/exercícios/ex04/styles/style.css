@@ -36,3 +36,48 @@ i {
     padding: 0.5%;
     border-radius: 10px;
 }
+
+/* NAV */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0.5% ;
+}
+
+.menu-links {
+    padding-right: 2%;
+}
+
+/* CABECALHO */
+
+.cabecalho {
+    padding: 3%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/* MAIN */
+
+.container {
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+}
+
+.section-container {
+    width: 60%;
+    line-height: 1.5;
+}
+
+.section-container h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.section-container p {
+    margin-bottom: 2%;
+}
