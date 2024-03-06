@@ -1,0 +1,55 @@
+===== 06/03/2024 =====
+
+- \n Quebra linha no console;
+
+===== OPERADORES =====
+
+- * multiplica ;
+- (-) subtrai;
+- + soma / concatena;
+- / divisão;
+- % retorna o resto de uma divisão;
+
+x += 5 --> x = x + 5;
+
+x -= 5 --> x = x - 5;
+
+x++ adiciona 1 a variável x;
+
+x-- subtrai 1 da variável x;
+
+x++ pós incremento, ou seja imprime e depois incrementa 
+
+++x pré incremento, ou seja incrementa e depois imprime
+
+===== CÁLCULOS =====
+
+Math. é um comando no JavaScript que traz operações matemáticas comumente utilizadas 
+
+Math.PI traz o valor de PI
+
+Math.pow(base, expoente)
+
+Math.sqrt() -- raiz quadrada
+
+Math.cbrt() -- raiz cúbica 
+
+Math.pow(x, 1/7) - faz o calcluo da raiz sétima de x
+
+Math.abs() -- valor absoluto, tira todo sinal negativo 
+
+Math.ceil() -- arredonda para cima
+
+Math.floor() -- arredonda para baixo
+
+Math.round() -- arredonda para o mais próximo
+
+Math.max() -- diz qual o maior número entre os referidos 
+
+Math.min() -- diz qual o menor número entre os referidos 
+
+===== CONSTANTE =====
+
+const AA =  (serve para criar uma variável, mas como constante seu valor não pode ser aterado, por boa prática deve ser definida em maiúsculo)
+
+
