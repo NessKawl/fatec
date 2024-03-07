@@ -137,6 +137,10 @@ li {
     margin-right: 10%;
 }
 
+.bg {
+    background-color: beige;
+}
+
 .mb {
     margin-bottom: 5%;
 }
