@@ -37,6 +37,10 @@ i {
     border-radius: 10px;
 }
 
+#ferias {
+    margin-left: 2%;
+}
+
 /* NAV */
 
 .menu {
@@ -72,7 +76,8 @@ i {
 }
 
 .section-container {
-    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
     line-height: 1.5;
     margin: 0 auto;
 
@@ -84,7 +89,7 @@ i {
 }
 
 .section-container p {
-    margin-bottom: 2%;
+    margin-bottom: ;
 }
 
 .section-container-imagens {
