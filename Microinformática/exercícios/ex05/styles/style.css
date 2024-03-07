@@ -6,11 +6,17 @@
 }
 
 :root {
-    --cor1: orange;
+    --cor1: #E51C21;
 }
 
 body {
     background-color: black;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .flex-1 {
@@ -32,16 +38,19 @@ body {
 }
 
 .cabecalho {
-    background-image: url(../assets/mortal-kombat-fundo.jpeg);
+    background-image: url(../assets/horizontal-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
-    display: flex;
-    justify-content: center ;
+    width: 100%;
 }
 
 .section-container {
     width: 80%;
+    margin: 0 auto;
 }
 
 .section-container h1 {
@@ -52,8 +61,97 @@ body {
     font-weight: lighter;
 }
 
+.imagens-inline {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagens-inline h3 {
+    padding: 5%;
+    width: 14%;
+    text-align: center;
+}
+
+.img-1 {
+    background-image: url(../assets/quadrado-6.jpg);
+    background-position: center right;
+}
+
+.img-2 {
+    background-image: url(../assets/vertical-5.jpg);
+    background-position: center left;
+}
+
+.img-3 {
+    background-image: url(../assets/vertical-6.jpg);
+    background-position: center;
+}
+
+.img-4 {
+    background-image: url(../assets/vertical-7.jpg);
+    background-position: center;
+
+
+}
+
+.section-container-info {
+    background-color: beige;
+}
+
+.section-imagens figure {
+    padding: 2%;
+}
+
+.section-imagens figure figcaption {
+    text-align: justify ;
+    color: black;
+}
+
+.subtitulo-center {
+    text-align: center;
+    font-weight: lighter;
+    color: black;
+    padding-top: 5%;
+    font-size: 2rem;
+}
+
+button {
+    background-color: black;
+    padding: 3%;
+    border-radius: 5px;
+    margin-top: 5%;
+    width: 40%;
+}
+
+/* RODAPÉ */
+.rodape {
+    padding: 1%;
+}
+
+.rodape ul {
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+}
+
+li {
+    list-style: none;
+    margin-right: 1%;
+}
+
+
+.bg {
+    background-color: beige;
+    margin-top: 5%;
+}
+
 .w-8 {
     width: 8%;
+}
+
+.w-60 {
+    width: 60%;
 }
 
 .w-100 {
@@ -64,7 +162,14 @@ body {
     height: 60vh;
 }
 
+.logo {
+    width: 50%;
+    margin-left: 20%;
+}
+
 .img-100 {
     width: 100%;
     height: 100%;
 }
+
+
