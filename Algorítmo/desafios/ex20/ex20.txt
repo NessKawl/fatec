@@ -1,0 +1,3 @@
+Aproximadamente 11 passos
+
+Pois sabendo que ao andar par o norte e depois para o Leste forma-se, se sairmos reto em direção ao ponto teremos um triangulo, assim basta saber a hipotenusa para descobrir quantos passos darei nessa linha reta
