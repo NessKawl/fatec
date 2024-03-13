@@ -1,0 +1,37 @@
+===== 13/03/2024 =====
+
+FORMULÁRIOS
+
+input -> entrada de dados 
+input -> tem um valor, que é o que está sendo escrito
+
+label -> nome atrelado ao input
+
+<label for="(id do input)"></label> --> vincula o nome ao input
+
+===== FUNÇÕES =====
+
+-- Função declarada --
+
+function exemplo() {
+
+} 
+
+-- Função Anônima --
+
+- Para ser utilizada deve ser colocada dentro de uma constante e é utilizada como parâmetro de outra função
+
+const exemplo = function() {
+
+}
+
+-- Arrow function --
+
+const exemplo = () => {
+
+}
+
+====== MÉTODOS =====
+
+- Métodos estão dentro de classes
+
