@@ -1,0 +1,22 @@
+.principal {
+    padding: 10px;
+    border: 1px solid blue;
+    margin: 10px;
+    position: relative;
+}
+
+.cor1 {
+    background-color: red;
+    width: 200px;   
+    height: 200px;
+}
+
+.cor2 {
+    background-color: rebeccapurple;
+    width: 250px;   
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+}
