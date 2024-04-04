@@ -1,0 +1,23 @@
+.borda-vermelha {
+    border: 1px solid red;
+}
+
+.borda-cinza {
+    border: 1px solid gray;
+}
+
+.vermelho {
+    color: red;
+}
+
+.verde {
+    color: green;
+}
+
+.amarelo {
+    color: yellow;
+}
+
+.w-10 {
+    width: 10%;
+}
