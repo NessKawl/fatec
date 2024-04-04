@@ -1,0 +1,13 @@
+.img-h{
+    /* border: 1px solid black; */
+    height: 25vh;
+
+    background-image: url('../assests/pexels-lloyd-freeman-1429775.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.text-justify {
+    text-align: justify;
+}
