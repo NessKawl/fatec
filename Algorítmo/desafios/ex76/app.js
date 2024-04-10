@@ -3,17 +3,22 @@ let btn = document.getElementById('btn')
 let div = document.getElementById('res')
 
 let n1Input = document.getElementById('n1')
-let n2Input = document.getElementById('n2')
 
 function calcular() {
     let n1 = parseFloat(n1Input.value)
-    let n2 = parseFloat(n2Input.value)
 
-    let nMaior = Math.max(n1, n2)
+    div.innerHTML = ''
 
-    div.innerHTML = `
-        O maior número entre ${n1} e ${n2} é <span style="color: blue;">${nMaior}</span>
-    `
+    // for (let i = 1; i <= 10; i++) {
+    //    div.innerHTML += (i * n1) + " "
+    // } 
+
+    let i = 1
+
+    while (i <= 10) {
+        div.innerHTML += (i * n1) + " "
+        i++
+    }
 }
 
 function limparForm () {

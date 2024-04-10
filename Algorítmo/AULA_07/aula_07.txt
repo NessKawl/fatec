@@ -1,0 +1,11 @@
+===== 10/04/2024 =====
+
+    ARRAY
+
+- Variável composta;
+- Armazena 1 ou mais dados;
+- Índices, indicam as posições dos dados, começando em 0;
+
+let arr = [] - Essa é a definição de array no JS
+
+arr.push(13) - Adiciona um valor ao array
