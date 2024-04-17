@@ -27,6 +27,7 @@ function limpar () {
     n1.value = ''
 
     n1.focus()
+    
 }
 
 

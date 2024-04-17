@@ -1,0 +1,22 @@
+===== 17/04/2024 =====
+
+OBJETO LITERAL 
+
+[] - ARRAY
+{} - OBJETO
+
+Exemplo: 
+
+    let pessoa = {
+        nome: 'nomeExemplo', // a vírgula é obrigatória caso haja outro atributo
+        idade: 00
+    }
+
+    pessoa.nome // pega o atributo nome
+    pessoa.idade // pega o atributo idade
+
+    let arrPessoa = []
+
+    arrPessoa.push(pessoa) // Insere o objeto pessoa ao ARRAY
+
+    arrPessoa[0].nome // Pega o atributo nome dentro do array 
