@@ -1,0 +1,54 @@
+===== 30/04/2024 =====
+
+Arquitetura de Vor Newman --> 1946
+|
+Baseado em 5 unidades
+
+        Unidade memória -> (registradores)
+            |
+Entrada -> UC ----> Unidade de Saída -> (monitores, caixa de som, impressora...)
+|          |-> Processamento   |
+|          |                   |
+|         ULA                 Disponibiliza a informação 
+Processamento              
+
+UC (Unidade de Controle) --> Gerencia os recursos do computador
+
+Unidade de Entrada -> (Drives, teclado, mouse, HD...)
+
+=================================================================
+
+Programa --> armazena na memória --> endereço consecutivo --> processador
+|                                                          |
+|----------------------------------------------------------|
+            |
+            n° 1: endereço tem as instruções p/ o processador
+
+A UC --> busca informação -> decodifica -> executa -> armazena 
+                                                            |
+                                                        Dentro do processador em pequenas unidades de memória (registradas) até que seja executada a instrução de finalização.
+
+==================================================================
+
+Barramento --> encaixes da placa mãe (sockets)
+|                               |
+|                             Tráfego de dados entre os componentes
+São linhas de comunicação para conectar várias partes
+        |
+        |
+    Todos as linhas levam os dados até o processador
+
+Exemplos: USB, SATA, PCI, PCI Express...
+
+       |----> Barramento de dados
+       |
+Estrutura ----> Barramento de endereço
+       |
+       |----> Barramento de controle
+
+
+        |----> Barramento de local
+        |
+Hierarquia ----> Barramento de sistema
+        |
+        |----> Barramento de expansão

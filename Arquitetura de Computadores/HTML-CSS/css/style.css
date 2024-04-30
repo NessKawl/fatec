@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 1%;
+}
+
+body {
+    background-color: rgba(255, 0, 191, 0.404);
+    border: 1px solid black;
+}
+
+.title {
+    background-color: aqua;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.botao {
+    margin-left: 43%;
+    background: green;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background: rebeccapurple;
+}
+
+.exemplo-back {
+    height: 200px;
+    background-color: gray;
+    background-size: cover;
+    background-image: url('../img/horizontal-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
