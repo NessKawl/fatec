@@ -3,28 +3,49 @@ let btn = document.getElementById('btn')
 let div = document.getElementById('res')
 
 let n1Input = document.getElementById('n1')
-let n2Input = document.getElementById('n2')
-let n3Input = document.getElementById('n3')
-let n4Input = document.getElementById('n4')
-let n5Input = document.getElementById('n5')
+
+let arrNotas = []
+
+
 
 function calcular() {
 
     let n1 = parseFloat(n1Input.value)
-    let n2 = parseFloat(n2Input.value)
-    let n3 = parseFloat(n3Input.value)
-    let n4 = parseFloat(n4Input.value)
-    let n5 = parseFloat(n5Input.value)
 
-    let media = (n1 + n2 + n3 + n4 + n5) / 5
 
-    div.innerHTML = `
-        A média das notas ${n1}, ${n2}, ${n3}, ${n4} e ${n5} é: ${media}
-    `
+    if (arrNotas.length < 5) {
+        arrNotas.push(n1)
+        div.innerHTML = ''
+
+        // Mostra as notas na tela
+        for (let i = 0; i < arrNotas.length; i++) {
+            div.innerHTML += ' ' + arrNotas[i]
+        }
+            
+    } else {
+        //Ao chegar ao limite definido no if, o botão e o input são escondidos
+        n1Input.classList.add('d-none')
+        btn.classList.add('d-none')
+    }
+
+    // Soma todos os valores do array e divide pelo tamanho do array, que no caso é 5
+    let media = (arrNotas[0] + arrNotas[1] + arrNotas[2] + arrNotas[3] + arrNotas[4]) / arrNotas.length
+
+    // Mostra a média somente quando todas as notas forem digitadas
+    if (arrNotas.length >= 5) {
+        div.innerHTML += `
+        <p>A média das notas é: ${media} </p>
+        `        
+    }
+    
+    limparForm()
 }
 
-function limparForm () {
 
+
+function limparForm () {
+    n1Input.value = ''
+    n1Input.focus()
 }
 
 btn.addEventListener('click', calcular)
