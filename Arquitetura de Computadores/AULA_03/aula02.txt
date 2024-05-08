@@ -1,0 +1,42 @@
+===== 07/05/2024 =====
+
+- O que é um processador e qual sua função?
+-- Executar programas armazenados na memória principal buscando suas instruções e examinamdo-as e então executando uma após a outra.
+
+Passos para que uma instrução seja executada pelo processador: 
+    |
+  Passo 1 - Trazer a próxima instrução da memória principal até o registrador;
+    |
+  Passo 2 - Alterar o registrador para indicar a próxima instrução;
+    |
+  Passo 3 - Qual instrução será executada (lógica ou aritmética);
+    |
+  Passo 4 - Se a instrução precisa de algo que esteja na memória determinar o endereço a onde ela possa ser encontrada;
+    |
+  Passo 5 - Executar a instrução.
+
+Buscar --> Decodificar --> Executar
+
+RISC  *  CISC
+  |        |
+  |        --> COMPUTADOR com um conjunto complexo de instrução
+  |
+  --> computador com um conjunto reduzido de instrução
+
+100 ciclos/s --> 100Hz
+
+Logo, o processador intel core i9 -> 3.7GHz, consegue  executar 3 bilhões e 700 milhões de cálculos / seg.
+
+RISC     
+  | --> menores                 | Dispositivos móveis
+  | --> consome menos energia   | Console
+  | --> mais barato             | 
+  | --> O hardware é dedicado   |
+
+CISC     
+  | --> clock elevado           | Notebooks
+  | --> consome mais energia    | Desktop
+  | --> mais caro               | Servidores
+  | --> mais desempenho         |
+
+  INTEL & AMD --> Arquitetura Híbrida (Risc / Cisc)
