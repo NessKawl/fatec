@@ -16,9 +16,8 @@ function calcular () {
     let aluno = {
         nome: nome,
         nota1: nota1,
-        nota2: nota2,
+        nota2: nota2
     }
-
 
     arrAluno.push(aluno)
 
@@ -29,7 +28,7 @@ function calcular () {
     for (let i = 0; i < arrAluno.length; i++) {
         numAluno++
 
-        media = (arrAluno[i].nota1 + arrAluno[i].nota2)/2
+        let media = (arrAluno[i].nota1 + arrAluno[i].nota2)/2
 
         div.innerHTML += `
             <div class="col-lg-3 mb-5 border m-3">
@@ -41,7 +40,6 @@ function calcular () {
             </div>
         `
     }
-    console.log(arrAluno);
 
     clear()
     aprovadoReprovado()
