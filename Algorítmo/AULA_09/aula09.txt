@@ -1,0 +1,28 @@
+===== 22/05/2024 =====
+
+STRINGS
+
+nome[i].ToUpperCase() --> Trasnforma o texto em caixa alta
+
+nome[i].ToLowerCase() --> Trasnforma o texto em caixa alta
+
+texto.trim() --> remove espaços em branco em ambas as extremidades da string |
+texto.trimEnd() --> remove espaços em branco no final da string              | --> SERVE SOMENTE PARA STRINGS
+texto.trimStart() --> remove espaços em branco no início da string           |
+
+========== CLASSES E POO ==========
+
+clasPessoa {
+
+    imprimir() {
+
+    }
+}
+       |--> Objeto
+Pessoa p = newPessoa()
+
+p.imprimir() --> busca no objeto p que tem acesso a clase Pessoa e busca dentro da classe a função imprimir
+
+Math.pow(a,b)
+  |
+  |---> Busca dentro da class Math a função pow que recebe os parâmetros a, b
