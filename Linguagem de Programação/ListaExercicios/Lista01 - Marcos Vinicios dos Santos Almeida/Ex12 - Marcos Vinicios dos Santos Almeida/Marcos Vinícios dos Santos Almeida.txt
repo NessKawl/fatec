@@ -1,0 +1,2 @@
+12 - Qual é o comando utilizado para executar um programa Java?
+c) java

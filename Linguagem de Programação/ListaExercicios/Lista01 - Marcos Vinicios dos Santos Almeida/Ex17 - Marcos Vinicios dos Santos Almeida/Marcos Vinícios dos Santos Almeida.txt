@@ -1,0 +1,2 @@
+17 - Qual código pode ser utilizado para exibir a mensagem Fatec em Java?
+b) System.out.println("Fatec")

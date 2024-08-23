@@ -1,0 +1,2 @@
+19 - Quais são os marcadores utilizados para inserir comentários nos programas em Java?
+c) //, /* e */ss

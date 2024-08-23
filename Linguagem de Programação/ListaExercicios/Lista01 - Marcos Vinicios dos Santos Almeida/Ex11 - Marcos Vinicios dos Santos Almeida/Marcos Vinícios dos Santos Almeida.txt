@@ -1,0 +1,2 @@
+11 - Qual é o comando utilizado para executar o compilador da linguagem Java?
+b) javac

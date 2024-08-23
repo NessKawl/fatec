@@ -1,0 +1,2 @@
+18 - Qual sequência de escape indica uma "quebra de linha"?
+a) \n

@@ -1,0 +1,12 @@
+20 - Considere o seguinte programa em Java.
+class Argumentos {
+	public static void main(String[] args) {
+		System.out.println(args[0]);
+		System.out.println(args[1]);
+	}
+}
+
+O que seria exibido na saída padrão se a classe Argumentos fosse executada com o seguinte
+comando?
+java Argumentos Fatec Livros
+c) Fatec e Livros

@@ -1,0 +1,2 @@
+16 - Qual alternativa declara corretamente o método main?
+b) public static void main (String[] args)

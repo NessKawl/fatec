@@ -1,0 +1,2 @@
+13 - Qual é a extensão dos arquivos que armazenam código compilado de um programa Java
+b) .class

@@ -1,0 +1,2 @@
+10 - Qual alternativa possui apenas nomes válidos para arquivos de código fonte Java?
+a) Fatec.java e Treinamentos.java.

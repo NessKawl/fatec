@@ -1,0 +1,2 @@
+14 - Ao compilar o arquivo Programa.java, quantos arquivos com a extensão .class serão gerados?
+d) Três
