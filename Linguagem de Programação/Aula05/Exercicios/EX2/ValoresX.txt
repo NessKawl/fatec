@@ -1,0 +1,12 @@
+Respostas do exercício 2 página 52 Apostila.
+
+a) 0
+b) 21
+c) 10
+d) 190
+e) 1
+f) 7
+g) -1
+h) 13
+i) F
+j) T

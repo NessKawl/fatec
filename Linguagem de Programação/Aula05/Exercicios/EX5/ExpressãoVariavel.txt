@@ -1,0 +1,9 @@
+Resposta exercício 5 página 58 Apostila
+
+y = 3;
+
+X = ++y - y++ * y + --y
+X = 4 - 4 * 5 + 4 
+X = +4 -20 + 4 
+X = -20 - 8 
+X = -12
