@@ -3,8 +3,8 @@
 public class VerificaValorProdutoRandom {
     public static void main(String[] args) {
 
-        double precoProduto1 = Math.random()*10;
-        double precoProduto2 = Math.random();
+        double precoProduto1 = Math.random()*1000;
+        double precoProduto2 = Math.random()*1000;
 
         System.out.println(precoProduto1);
 

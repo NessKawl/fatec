@@ -4,7 +4,7 @@ import java.lang.Math;
 public class AprovadoReprovadoRandom {
     public static void main(String[] args) {
         
-        int nota = (int) (Math.random());
+        int nota = (int) (Math.random()*11);
 
         System.out.println(nota);
 
