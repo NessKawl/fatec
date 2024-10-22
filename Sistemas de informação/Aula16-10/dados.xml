@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<professores>
+    <professor>
+        <nome>Carlos</nome>
+        <cidade>Lorena</cidade>
+    </professor>
+</professores>
