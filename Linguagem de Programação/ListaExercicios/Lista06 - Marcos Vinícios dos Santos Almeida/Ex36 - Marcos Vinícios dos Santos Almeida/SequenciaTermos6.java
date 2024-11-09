@@ -8,7 +8,7 @@ public class SequenciaTermos6 {
         Scanner leia = new Scanner(System.in);
 
         int termos, num = 0, contador = 0;
-
+do {
         System.out.print("Digite a quantidade de termos [Zero p/ sair]: ");
         termos = leia.nextInt();
 
@@ -29,7 +29,7 @@ public class SequenciaTermos6 {
             }
             
         }
-
+    } while (termos > 0);
         
 
     }

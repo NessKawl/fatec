@@ -24,6 +24,7 @@ public class Populacao {
 
             if (salario < 0) {
                 qtdHabitantes--;
+                break;
             }
 
             percentual = (salarioMenor150 * 100.0) / qtdHabitantes;
@@ -42,7 +43,7 @@ public class Populacao {
         } while (salario >= 0);
 
         System.out.printf("\nMédia salarial: R$%.2f", mediaSalarial);
-        System.out.printf("\nMédia de número de filhos: %f", mediaFilhos);
+        System.out.printf("\nMédia de número de filhos: %.0f", mediaFilhos);
         System.out.printf("\nMaior salário: %.2f", maiorSalario);
         System.out.printf("\nPercentual de salário abaixo de R$150,00: %.2f%%", percentual);
     }
