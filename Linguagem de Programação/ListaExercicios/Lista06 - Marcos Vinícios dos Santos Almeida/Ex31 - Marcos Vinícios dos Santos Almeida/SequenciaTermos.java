@@ -13,7 +13,7 @@ public class SequenciaTermos {
             System.out.print("Digite a quantidade de termos [Zero p/ sair]: ");
             termos = leia.nextInt();
             if (termos < 0) {
-                System.out.print("Digite uma quantidade de termos válida [Zero p/ sair]: ");
+                System.out.print("Digite uma quantidade de termos válida ");
                 termos = leia.nextInt();
             } else {
                 if (termos > 0) {

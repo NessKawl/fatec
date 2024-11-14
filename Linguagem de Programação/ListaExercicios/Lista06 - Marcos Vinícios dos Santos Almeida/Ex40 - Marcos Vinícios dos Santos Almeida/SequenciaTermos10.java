@@ -7,10 +7,12 @@ public class SequenciaTermos10 {
 
         Scanner leia = new Scanner(System.in);
 
-        int termos, contador;
+        int termos, aux;
         do {
             System.out.print("Digite a quantidade de termos [Zero p/ sair]: ");
             termos = leia.nextInt();
+
+            aux = termos / 2;
 
             if (termos < 0) {
                 System.out.print("Digite uma quantidade de termos válida [Zero p/ sair]: ");
@@ -22,7 +24,7 @@ public class SequenciaTermos10 {
                         if (i <= termos / 2) {
                             System.out.print(i + ", ");
                         } else {
-                            System.out.print((termos - i + 1) + ", ");
+                            System.out.print(aux-- + ", ");
                         }
 
                     }

@@ -17,10 +17,9 @@ public class SequenciaTermos4 {
                 termos = leia.nextInt();
             } else {
                 if (termos > 0) {
-                    for (int i = 0; i <= termos; i++) {
+                    for (int i = 1; i <= termos; i++) {
                         System.out.print(num + " ");
-                        contador++;
-                        num += contador;
+                        num += i;
                     }
                 } else {
                     System.out.print("FIM DO PROGRAMA");
